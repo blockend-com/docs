@@ -27,6 +27,7 @@ These are the current liquidity sources available on Compass, carefully curated 
 * [Meson](https://meson.fi/) - Cross Chain Intents
 * [Four.Meme](https://four.meme/) - Token Launchpad
 * [Magpie](https://magpiefi.xyz) - Cross Chain Aggregator
+* [Orca](https://www.orca.so/) - Multi Chain DEX
 
 
 
