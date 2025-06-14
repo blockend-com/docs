@@ -10,11 +10,13 @@ Blockend Widget is available as an [npm package](https://www.npmjs.com/package/b
 
 **Package Dependencies Overview**
 
-The widget requires the following dependency packages:
+The widget requires the following dependency packages:\
 
-* **@dynamic-labs**: Provides wallet connection and authentication capabilities.
+
+* **@dynamic-labs**: Provides wallet connection for Solana blockchain.
 * **@cosmjs**: Enables interaction with Cosmos-based blockchains
-* **@walletconnect**: An open-source protocol that enables secure wallet connections between dApps and mobile wallets.
+* graz: Provides react hooks for Cosmos wallet interaction.
+* wagmi,viem: Enables interaction with EVM blockchain
 
 **Installation Commands**
 
@@ -23,13 +25,13 @@ Choose your preferred package manager:
 **npm:**
 
 ```sh
-npm install @blockend/widget wagmi viem @tanstack/react-query @dynamic-labs/sdk-react-core @dynamic-labs/solana @cosmjs/cosmwasm-stargate @cosmjs/proto-signing @cosmjs/stargate
+npm install @blockend/widget wagmi viem @tanstack/react-query @dynamic-labs/sdk-react-core @dynamic-labs/solana graz graz-sh/types @cosmjs/cosmwasm-stargate @cosmjs/proto-signing @cosmjs/stargate
 ```
 
 **yarn:**
 
 ```sh
-yarn add @blockend/widget wagmi viem @tanstack/react-query @dynamic-labs/sdk-react-core @dynamic-labs/solana @cosmjs/cosmwasm-stargate @cosmjs/proto-signing @cosmjs/stargate 
+yarn add @blockend/widget wagmi viem @tanstack/react-query @dynamic-labs/sdk-react-core @dynamic-labs/solana graz graz-sh/types @cosmjs/cosmwasm-stargate  @cosmjs/proto-signing @cosmjs/stargate 
 ```
 
 > **Note**: All dependencies are required for full functionality of the widget across different blockchain networks and wallet types.
