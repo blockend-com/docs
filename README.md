@@ -10,7 +10,7 @@ icon: ufo-beam
 
 ***
 
-## :compass: COMPASS (Live on 80+ Chains)
+## :compass: COMPASS (Live on 90+ Chains)
 
 Compass is a liquidity Super-Aggregator that unifies every Web3 liquidity source including DEXs, Bridges, RFQs, Intent Protocols and more, into a single reliable layer.
 
