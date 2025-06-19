@@ -88,4 +88,24 @@ const configuration = {
 };
 ```
 
-> Note: token address for native tokens is set to 0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+Note: token address for native tokens is set to 0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+
+### Add custom widget heading
+
+There is an option to customise the widget heading, here is how to do it,
+
+```javascript
+const configuration={
+   headingText: "", // Text to display as the widget heading - pass the heading as string to display your own heading, default text is LAZY.exchange.
+      headingContainerStyles: {// Styles to customize the container that wraps the heading,
+        transform: "skewX(0deg)", // Supports all valid CSS style properties.
+        left: "0px",
+        top: "0px",
+      },
+      // Styles to customize the heading text itself,
+      // Supports all valid CSS style properties.
+      headingStyles: {
+        transform: "skewX(0deg)",
+      },
+}
+```
