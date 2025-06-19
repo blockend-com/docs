@@ -4,7 +4,7 @@
 
 Aggregators like Compass have transformed how users move assets across chains, making complex transfers feel seamless with a single interface. Yet even the most sophisticated aggregation can't overcome the fundamental limitations of today's bridging infrastructure. While Compass can discover routes that other aggregators miss, it's still constrained by bridges that support only the most popular assets, require multiple validation layers, and rely on slow cross-chain messaging.
 
-This means even optimal routes often involve multiple steps and intermediaries, with each hop accumulating its own gas fees, bridge fees, and validator costs. What should be a simple transfer becomes prohibitively expensive, especially for smaller transactions where fees can exceed the transfer amount itself. The problem extends far beyond the top 10-15 chains and tokens—there's massive user demand across hundreds of emerging chains and tokens that current bridge infrastructure simply cannot serve efficiently. With an ecosystem already spanning 300+ chains and potentially growing to thousands, these infrastructure limitations aren't just inconvenient—they're becoming a critical bottleneck for cross-chain liquidity.
+This means even optimal routes often involve multiple steps and intermediaries, with each hop accumulating its own gas fees, bridge fees, and validator costs. What should be a simple transfer becomes prohibitively expensive, especially for smaller transactions where fees can exceed the transfer amount itself. The problem extends far beyond the top 10-15 chains and tokens, there's massive user demand across hundreds of emerging chains and tokens that current bridge infrastructure simply cannot serve efficiently. With an ecosystem already spanning 300+ chains and potentially growing to thousands, these infrastructure limitations aren't just inconvenient they're becoming a critical bottleneck for cross-chain liquidity.
 
 ### **The Rise of Intent-Based Bridges**
 
@@ -58,7 +58,7 @@ _**For intent-based bridges to fully replace traditional bridges and unlock thei
 
 ### Introducing Intents 2.0
 
-LEX takes the core components of intent protocols—such as escrow, fulfillment, validation, and settlement—and moves all of them to a purpose-built SVM chain on Solana. This chain is optimized for speed and cost, tailored specifically to the intent protocol lifecycle. While the core components remain the same, LEX eliminates the need for smart contracts on every supported chain and reduces dependency on legacy infrastructure like cross-chain messaging. By redefining who does what, how it happens, and where these processes are executed, LEX streamlines operations, lowers costs, and introduces the next evolution: Intents 2.0.
+LEX takes the core components of intent protocols such as escrow, fulfillment, validation, and settlement—and moves all of them to a purpose-built SVM chain on Solana. This chain is optimized for speed and cost, tailored specifically to the intent protocol lifecycle. While the core components remain the same, LEX eliminates the need for smart contracts on every supported chain and reduces dependency on legacy infrastructure like cross-chain messaging. By redefining who does what, how it happens, and where these processes are executed, LEX streamlines operations, lowers costs, and introduces the next evolution: Intents 2.0.
 
 #### _Three Key Changes in LEX: From Intent 1.0 to Intent 2.0_
 
@@ -74,7 +74,7 @@ LEX streamlines the core components of escrow, fulfillment, validation, and sett
 
 ### Escrow: Secure Collateral Without Source Chain Smart Contracts
 
-Instead of users locking funds in source chain smart contracts, LEX requires winning solvers to escrow collateral on the SVM chain. This seemingly simple change has profound implications. Users now make basic token transfers directly to solver addresses—a transaction that costs dramatically less in gas than smart contract interactions, especially on high-fee chains like Ethereum. The solver’s escrowed collateral on the SVM chain provides bulletproof security without the overhead of cross-chain smart contracts.
+Instead of users locking funds in source chain smart contracts, LEX requires winning solvers to escrow collateral on the SVM chain. This seemingly simple change has profound implications. Users now make basic token transfers directly to solver addresses a transaction that costs dramatically less in gas than smart contract interactions, especially on high-fee chains like Ethereum. The solver’s escrowed collateral on the SVM chain provides bulletproof security without the overhead of cross-chain smart contracts.
 
 Consider how this improves upon traditional systems: In current intent protocols, users must interact with smart contracts that need deployment, auditing, and maintenance on every supported chain. Each interaction involves multiple transaction layers: first to approve tokens, then to deposit them, each incurring gas costs. LEX reduces this to a single standard token transfer while maintaining equivalent security through solver collateral.
 
@@ -82,13 +82,13 @@ Consider how this improves upon traditional systems: In current intent protocols
 
 The end goal of an intent protocol is to ensure that the user’s intent is fulfilled and that the solver is appropriately compensated. If this critical aspect can be completed and verified, then there is no need for extensive infrastructure that monitors every specific event, including the source chain deposit.
 
-Solvers already take on finality risk in traditional protocols—they routinely fulfill intents before source chain transactions fully finalize, occasionally losing funds to block reorganizations. Since solvers have already priced in and accepted this risk, LEX eliminates the need for costly cross-chain validation infrastructure. By focusing on verifying the fulfillment of the user’s intent on the destination chain, the system becomes far more efficient.
+Solvers already take on finality risk in traditional protocols, they routinely fulfill intents before source chain transactions fully finalize, occasionally losing funds to block reorganizations. Since solvers have already priced in and accepted this risk, LEX eliminates the need for costly cross-chain validation infrastructure. By focusing on verifying the fulfillment of the user’s intent on the destination chain, the system becomes far more efficient.
 
 However, there may be instances where the source chain transaction needs to be validated, such as when the intent is canceled by the user, the source transaction fails, or other issues arise. In such cases, the escrow of the solver must be released. LEX accommodates these scenarios by enabling validators to verify source chain transactions when required, but without the need for full-scale infrastructure. These mechanisms ensure that the system remains robust while avoiding unnecessary overhead.
 
 ### **Validation: Flexible and Incentivized Verification for Scalability**
 
-The current infrastructure requirements—maintaining nodes, monitoring smart contracts, and verifying cross-chain events—add complexity without providing meaningful benefits to solvers and validators. The end goal of validators in LEX is to ensure that the user’s intent is fulfilled, verified, and that solvers are repaid for their efforts on time.
+The current infrastructure requirements maintaining nodes, monitoring smart contracts, and verifying cross-chain events add complexity without providing meaningful benefits to solvers and validators. The end goal of validators in LEX is to ensure that the user’s intent is fulfilled, verified, and that solvers are repaid for their efforts on time.
 
 The broader objective of the protocol is to capture a user’s intent, find the best possible execution path for solver liquidity, and ensure that the intent is fulfilled. How this happens doesn’t need to be rigid or overly complex, as long as the process is verified by actors with skin in the game and proven on-chain. With this approach, LEX avoids dictating specific infrastructure requirements, offering validators flexibility in how they verify transactions.
 

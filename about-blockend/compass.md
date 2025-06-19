@@ -2,12 +2,12 @@
 
 When a user visits a new dApp, their first thought is : **“Which token do I need, and on which chain, to use this dApp?”**
 
-This forces them into a complex journey of researching, swapping, and transferring assets across platforms—**often resulting in drop-offs and lost revenue for the dApp**.
+This forces them into a complex journey of researching, swapping, and transferring assets across platforms **often resulting in drop-offs and lost revenue for the dApp**.
 
 If, by some miracle, a dev decides to tackle this friction and improve the user experience (a rarity among Web3 devs), they face the daunting task of:
 
 * Integrating a colossal number of chains, wallets, providers, and liquidity sources.
-* Deciphering wildly different mechanisms and tech across platforms—because, well, Web3.
+* Deciphering wildly different mechanisms and tech across platforms because, well, Web3.
 * Undertaking a journey so complex it can take years and demand significant resources.
 
 #### _There has to be a better way! (_ :shark: _Shark Tank Style)_
@@ -42,7 +42,7 @@ Use our comprehensive APIs and SDKs in your backend utilizing all of web3 liquid
 PathFinder is our proprietary execution engine designed to handle complex, end-to-end transactions, transforming multi-step processes into seamless one-click magic. It executes all steps with maximum efficiency in just seconds.
 
 * **Figures Out Unique Paths**: Combines multiple providers for optimal execution, even when no single provider can handle the entire transaction journey.
-* **Automates Execution**: Handles every step—approval, swap, bridge—requiring only one user transaction.
+* **Automates Execution**: Handles every step- approval, swap, bridge, requiring only one user transaction.
 * **Manages Gas Fees**: Automatically calculates and manages gas tokens across chains for complex transactions.
 
 _"Pathfinder is currently in beta and being rolled out to our early integrators in phases, bringing us closer to realizing our vision of Any Token, Any Chain."_

@@ -28,6 +28,8 @@ These are the current liquidity sources available on Compass, carefully curated 
 * [Four.Meme](https://four.meme/) - Token Launchpad
 * [Magpie](https://magpiefi.xyz) - Cross Chain Aggregator
 * [Orca](https://www.orca.so/) - Multi Chain DEX
+* [DFlow](https://dflow.net/)- Solana RFQ DEX
+* [Pyth Express](https://www.pyth.network/express-relay)- Solana Intent Protocol
 
 
 
