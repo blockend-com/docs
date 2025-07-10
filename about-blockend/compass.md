@@ -49,7 +49,7 @@ _"Pathfinder is currently in beta and being rolled out to our early integrators 
 
 ### Why Choose Compass?
 
-* **Boost User Conversion:** Compass eliminates friction for your users by enabling seamless one-click transactions. Users don’t need to research, swap, or transfer assets across chains—it’s all handled automatically, keeping them engaged and reducing drop-offs.
+* **Boost User Conversion:** Compass eliminates friction for your users by enabling seamless one-click transactions. Users don’t need to research, swap, or transfer assets across chains, it’s all handled automatically, keeping them engaged and reducing drop-offs.
 * **Save Development Time:** Integrating multiple chains, wallets, and liquidity providers can take years. With Compass, all of this complexity is streamlined into a single integration, saving you time and resources.
 * **Optimize Performance:** Compass delivers the best value, speed, and gas efficiency for every transaction by leveraging advanced analytics and routing algorithms, making your dApp more competitive.
-* **Effortless Compatibility:** Access support for 80+ chains, including EVM and non-EVM ecosystems, with no additional infrastructure required. Plus, as Compass continues integrating new chains at a rapid pace, your dApp will automatically support them—no extra work needed.
+* **Effortless Compatibility:** Access support for 140+ chains, including EVM and non-EVM ecosystems, with no additional infrastructure required. Plus, as Compass continues integrating new chains at a rapid pace, your dApp will automatically support them—no extra work needed.
