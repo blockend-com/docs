@@ -41,17 +41,13 @@ const configuration = {
       error: "#FD5868", // error messages and lower output.
     },
     background: {
-      container: "#FFFFFF", // can be used to update the bg color of the widget container, input amount container and routes container.
-      secondary: "#E9E9E9", // can be used to update the table cell background on portfolio page.
-      card:"#FFFFFF", //can be used to update the card color of the widget
+      container: "#FFFFFF", // can be used to update the bg color of the widget container and card color of the widget.
+      secondary: "#E9E9E9", // can be used to update the table cell,loaderbar,skeleton and assets background on portfolio page.
       networkCard: "#F6F6F6", // used as background color for top main networks cards and transaction hash container in tokens section.
-      loaderbar: "#E9E9E9", // loader bar color accross the widget.
-      coin:"#E0E0E0", // used to update th default background color of the coin and chain icons.
-      rewards:"#eaeaeb33" // can be used to update the rewards section background color on history page
+  
     },
     border: {
       primary: "#E0E0E0",// primary border color of the widget, can be used to update the container border,border of coin and chain icons, cards border of the widget.
-      inputHighlight: "#9FC966", //inputHighlight is used to update the border color of search tokens input field on select chains page when there are more than 0 results.
     },
     fontFamily:'"micro 5 charted"', sans-serif, lato; // can be used to update the font family of the widget to match the parent site, add the fonts to your site and just pass the font name to the widget.
     shadow: {
@@ -109,3 +105,29 @@ const configuration={
       },
 }
 ```
+
+
+
+### Transaction Page Persistance
+
+You can control whether the transaction page state is maintained when the page is reloaded by setting the `persistTxnData` option. This setting determines if users stay on the transaction page after a page refresh.
+
+Copy
+
+```
+const configuration = {
+  persistTxnData: false, // true (default)
+  ...
+};
+```
+
+**Options:**
+
+* `true` (default): The transaction page state is preserved when the page is reloaded - users will remain on the transaction page
+* `false`: The transaction page state is not preserved - users will return to the main widget page after reload
+
+**Use Cases:**
+
+* Set to `false` if you want users to always start fresh on the main widget page after reload
+* Set to `true` (default) to maintain the transaction flow continuity even after page refresh
+

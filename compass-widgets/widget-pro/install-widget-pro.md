@@ -108,16 +108,11 @@ const configuration = {
     },
     background: {
       container: "#FFFFFF",
-      secondary: "#E9E9E9",
-      card:"#FFFFFF",
-      networkCard: "#F6F6F6",
-      loaderbar: "#E9E9E9",
-      coin:"#E0E0E0",
-      rewards:"#eaeaeb33"
+      secondary: "#E0E0E0",
+      networkCard: "#F7F7F7",
     },
     border: {
       primary: "#E0E0E0",
-      inputHighlight: "#9FC966",
     },
     fontFamily:'"micro 5 charted"', sans-serif, lato;
     shadow: {

@@ -15,6 +15,7 @@
 * [Widget Pro](compass-widgets/widget-pro/README.md)
   * [Install Widget Pro](compass-widgets/widget-pro/install-widget-pro.md)
   * [Customise Widget Pro](compass-widgets/widget-pro/customise-widget-pro.md)
+  * [Widget Studio](compass-widgets/widget-pro/widget-studio.md)
   * [Widget Events](compass-widgets/widget-pro/widget-events.md)
   * [Wallet Management](compass-widgets/widget-pro/wallet-management.md)
 * [Widget Lite](compass-widgets/widget-lite.md)
