@@ -189,7 +189,46 @@ curl -X GET "https://api2.blockend.com/v1/chains"
 
 This approach ensures you always have the most up-to-date list of supported chains.
 
+or use useUpdateWagmiConfig hook
 
+## useUpdateWagmiConfig Hook
+
+### Purpose
+
+The `useUpdateWagmiConfig` hook synchronizes your Wagmi configuration with the Blockend widget's supported chains, ensuring wallet connections work across all widget networks.
+
+### Usage
+
+```javascript
+import { useUpdateWagmiConfig } from "@blockend/widget";
+import {useState,useEffect} from "react";
+function MyApp() {
+//fetch chains from blockend api
+const [chains,setChains]=useState([])
+useEffect(()=>{
+fetch('https://api2.blockend.com/v1/chains').then(res=>res.json()).res(res=>{setChains(res.data)})
+},[])
+  useUpdateWagmiConfig(
+    config, // Your Wagmi config
+    config.connectors, // Your connectors
+    chains || [] // Widget chain data
+  );
+
+  return (
+    <WagmiProvider config={config}>
+      <BlockendWidget />
+    </WagmiProvider>
+  );
+}
+```
+
+### Parameters
+
+* `config`: Wagmi configuration object
+* `connectors`: Array of Wagmi connectors
+* `chains`: Array of chain data from widget (must have `networkType: "evm"`)
+
+The hook automatically converts widget chains to Wagmi format and updates your config.
 
 ## Integration for Solana wallets
 

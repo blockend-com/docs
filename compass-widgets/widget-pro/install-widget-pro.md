@@ -25,13 +25,13 @@ Choose your preferred package manager:
 **npm:**
 
 ```sh
-npm install @blockend/widget wagmi viem @tanstack/react-query @dynamic-labs/sdk-react-core @dynamic-labs/solana graz graz-sh/types @cosmjs/cosmwasm-stargate @cosmjs/proto-signing @cosmjs/stargate
+npm install @blockend/widget @blockend/compass-sdk wagmi viem @tanstack/react-query @dynamic-labs/sdk-react-core @dynamic-labs/solana @dynamic-labs/bitcoin graz graz-sh/types @cosmjs/cosmwasm-stargate @cosmjs/proto-signing @cosmjs/stargate
 ```
 
 **yarn:**
 
 ```sh
-yarn add @blockend/widget wagmi viem @tanstack/react-query @dynamic-labs/sdk-react-core @dynamic-labs/solana graz graz-sh/types @cosmjs/cosmwasm-stargate  @cosmjs/proto-signing @cosmjs/stargate 
+yarn add @blockend/widget @blockend/compass-sdk wagmi viem @tanstack/react-query @dynamic-labs/sdk-react-core @dynamic-labs/solana @dynamic-labs/bitcoin graz graz-sh/types @cosmjs/cosmwasm-stargate  @cosmjs/proto-signing @cosmjs/stargate 
 ```
 
 > **Note**: All dependencies are required for full functionality of the widget across different blockchain networks and wallet types.
