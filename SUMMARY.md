@@ -31,6 +31,7 @@
   * [Get Raw Transaction To Execute](compass-api/api-reference/get-raw-transaction-to-execute.md)
   * [Check Transaction Status](compass-api/api-reference/check-transaction-status.md)
   * [Quick Swap API](compass-api/api-reference/quick-swap-api.md)
+  * [Lite Mode](compass-api/api-reference/lite-mode.md)
   * [Gasless Swaps](compass-api/api-reference/gasless-swaps.md)
   * [Type Definations](compass-api/api-reference/type-definations.md)
   * [Get Supported Chains & Tokens](compass-api/api-reference/get-supported-chains-and-tokens.md)

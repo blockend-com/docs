@@ -3,9 +3,9 @@
 ### Installation
 
 ```bash
-npm install @blockend/compass-sdk
+npm install @blockend/compass-sdk @solana/web3.js @cosmjs/stargate 
 # or
-yarn add @blockend/compass-sdk
+yarn add @blockend/compass-sdk @solana/web3.js @cosmjs/stargate
 ```
 
 ### Quick Start

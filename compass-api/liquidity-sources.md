@@ -30,6 +30,7 @@ These are the current liquidity sources available on Compass, carefully curated 
 * [Orca](https://www.orca.so/) - Multi Chain DEX
 * [DFlow](https://dflow.net/)- Solana RFQ DEX
 * [Pyth Express](https://www.pyth.network/express-relay)- Solana Intent Protocol
+* [OKX](https://web3.okx.com/) - DEX Aggregator
 
 
 
